@@ -67,7 +67,7 @@ export const ShareInput = ({
                 placeholder="File Url"
                 defaultValue={file.url}
                 disabled={true}
-                className={styles.shareInput}
+                className="share-input"
               />
             </div>
             <div className="w-[52px]">
@@ -89,7 +89,7 @@ export const ShareInput = ({
             placeholder="File Url"
             defaultValue={file.url}
             readOnly={true}
-            className={styles.shareInput}
+            className="share-input"
             onClick={() => onCopyClick(file.url)}
           />
         </div>
@@ -100,7 +100,7 @@ export const ShareInput = ({
             type="email"
             placeholder="Enter email address"
             onChange={(e) => onInputChange(e.target.value.trim().split(","))}
-            className={styles.shareInput}
+            className="share-input"
           />
           <div className="pt-5">
             <div className="flex justify-between">

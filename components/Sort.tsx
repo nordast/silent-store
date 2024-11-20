@@ -10,7 +10,6 @@ import {
 } from "@/components/ui/select";
 import { usePathname, useRouter } from "next/navigation";
 import { sortTypes } from "@/constants";
-import styles from "./styles/Sort.module.css";
 
 const Sort = () => {
   const path = usePathname();
@@ -22,10 +21,10 @@ const Sort = () => {
 
   return (
     <Select onValueChange={handleSort} defaultValue={sortTypes[0].value}>
-      <SelectTrigger className={styles.select}>
+      <SelectTrigger className="sort-select">
         <SelectValue placeholder={sortTypes[0].value} />
       </SelectTrigger>
-      <SelectContent className={styles.content}>
+      <SelectContent className="shadow-drop-2">
         {sortTypes.map((sort) => (
           <SelectItem
             key={sort.label}

@@ -7,5 +7,5 @@
 }
 
 .error {
-  @apply body-2 mx-auto w-full rounded-xl bg-error/5 px-8 py-4 text-center text-error !important;
+  @apply text-[14px] leading-[20px] font-normal mx-auto w-full rounded-xl bg-error/5 px-8 py-4 text-center text-error !important;
 }

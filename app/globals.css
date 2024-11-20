@@ -238,6 +238,18 @@
     fill: #A3B2C7 !important;
   }
 
+  .search-input {
+    @apply text-[14px] leading-[20px] font-normal shad-no-focus  placeholder:body-1 w-full border-none p-0 shadow-none placeholder:text-light-200 !important;
+  }
+
+  .share-input {
+    @apply text-[14px] leading-[20px] font-normal mt-2 shad-no-focus h-[52px] w-full rounded-full border px-4 shadow-drop-1 disabled:cursor-default !important;
+  }
+
+  .sort-select {
+    @apply shad-no-focus h-11 w-full rounded-[8px] border-transparent bg-white !shadow-sm sm:w-[210px] !important;
+  }
+
 }
 
 @layer base {

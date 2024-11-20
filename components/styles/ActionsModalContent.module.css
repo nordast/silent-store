@@ -1,24 +1,24 @@
 .detailsThumbnail {
   @apply !mb-1 flex items-center gap-3 rounded-xl border border-light-200/40 bg-light-400/50 p-3 !important;
 }
+
 .detailsLabel {
   @apply text-[14px] leading-[20px] font-normal w-[30%] text-light-100 text-left !important;
 }
-.detailsValue {
-  @apply subtitle-2 flex-1 text-left !important;
-}
 
+.detailsValue {
+  @apply text-[14px] leading-[20px] font-semibold flex-1 text-left !important;
+}
 
 
 .shareContainer {
   @apply !mt-2 space-y-2 !important;
 }
-.shareInput {
-  @apply text-[14px] leading-[20px] font-normal mt-2 shad-no-focus h-[52px] w-full rounded-full border px-4 shadow-drop-1 disabled:cursor-default !important;
-}
+
 .shareRemoveUser {
   @apply rounded-full bg-transparent text-light-100 shadow-none hover:bg-transparent !important;
 }
+
 .removeIcon {
   @apply aspect-square rounded-full !important;
 }

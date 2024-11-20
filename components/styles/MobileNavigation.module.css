@@ -19,7 +19,7 @@
 }
 
 .item {
-  @apply flex text-light-100 gap-4 w-full justify-start items-center h5 px-6 h-[52px] rounded-full hover:bg-brand/10 transition !important;
+  @apply text-[16px] leading-[24px] font-semibold flex text-light-100 gap-4 w-full justify-start items-center px-6 h-[52px] rounded-full hover:bg-brand/10 transition !important;
 }
 
 .itemActive {
@@ -34,5 +34,5 @@
 }
 
 .button {
-  @apply h5 flex h-[52px] w-full items-center gap-4 rounded-full bg-brand/10 px-6 text-brand shadow-none transition-all hover:bg-brand/20 !important;
+  @apply text-[16px] leading-[24px] font-semibold flex h-[52px] w-full items-center gap-4 rounded-full bg-brand/10 px-6 text-brand shadow-none transition-all hover:bg-brand/20 !important;
 }

@@ -19,5 +19,5 @@
 }
 
 .description {
-  @apply subtitle-1 mt-2 w-full text-white/70 md:text-center lg:text-left !important;
+  @apply text-[16px] leading-[24px] font-medium mt-2 w-full text-white/70 md:text-center lg:text-left !important;
 }

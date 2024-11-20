@@ -68,7 +68,7 @@ const Search = () => {
         <Input
           value={query}
           placeholder="Search..."
-          className={styles.input}
+          className="search-input"
           onChange={(e) => setQuery(e.target.value)}
           onBlur={clearSearch}
         />
