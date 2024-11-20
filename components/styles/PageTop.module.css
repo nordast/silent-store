@@ -1,0 +1,6 @@
+.sizeContainer {
+  @apply flex mt-2 flex-col justify-between sm:flex-row sm:items-center !important;
+}
+.sortContainer {
+  @apply mt-5 flex items-center sm:mt-0 sm:gap-3 !important;
+}

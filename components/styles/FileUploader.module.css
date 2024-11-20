@@ -1,0 +1,15 @@
+.list {
+  @apply fixed bottom-10 right-10 z-50 flex size-full h-fit max-w-[480px] flex-col gap-3 rounded-[20px] bg-white p-7 shadow-drop-3 !important;
+}
+
+.item {
+  @apply flex items-center justify-between  gap-3 rounded-xl p-3 shadow-drop-3 !important;
+}
+
+.name {
+  @apply text-[14px] leading-[20px] font-semibold mb-2 line-clamp-1 max-w-[300px] truncate !important;
+}
+
+.toastError {
+  @apply bg-red !rounded-[10px] !important;
+}

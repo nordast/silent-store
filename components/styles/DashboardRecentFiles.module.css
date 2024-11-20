@@ -1,0 +1,15 @@
+.container {
+  @apply h-full rounded-[20px] bg-white p-5 xl:p-8 !important;
+}
+
+.details {
+  @apply flex w-full flex-col xl:flex-row xl:justify-between !important;
+}
+
+.name {
+  @apply text-[14px] leading-[20px] font-semibold line-clamp-1 w-full text-light-100 sm:max-w-[200px] lg:max-w-[250px] !important;
+}
+
+.date {
+  @apply text-[14px] leading-[20px] font-normal text-light-100/80 !important;
+}

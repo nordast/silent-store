@@ -1,0 +1,23 @@
+.nav {
+  @apply text-[16px] leading-[24px] font-semibold mt-9 flex-1 gap-1 text-brand !important;
+}
+
+.item {
+  @apply flex text-light-100 gap-4 rounded-xl lg:w-full justify-center lg:justify-start items-center text-[16px] leading-[24px] font-semibold lg:px-[30px] h-[52px] lg:rounded-full hover:bg-brand/10 transition !important;
+}
+
+.itemActive {
+  @apply bg-brand text-white shadow-drop-2 cursor-default hover:bg-brand !important;
+}
+
+.info {
+  @apply mt-4 flex items-center justify-between gap-2 rounded-full  text-light-100 lg:p-3 lg:px-6 !important;
+}
+
+.icon {
+  @apply w-6 filter invert opacity-25 !important;
+}
+
+.iconActive {
+  @apply invert-0 opacity-100 !important;
+}

@@ -1,0 +1,7 @@
+.thumbnail {
+  @apply flex items-center justify-center size-[50px] min-w-[50px] overflow-hidden rounded-full bg-brand/10;
+}
+
+.image {
+  @apply size-full object-cover object-center !important;
+}

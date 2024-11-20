@@ -1,0 +1,7 @@
+.container {
+  @apply mx-auto flex w-full max-w-7xl flex-col items-center gap-8 !important;
+}
+
+.list {
+  @apply grid w-full gap-6 mt-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 !important;
+}

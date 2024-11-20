@@ -1,0 +1,7 @@
+.root {
+  @apply focus:ring-0 focus:ring-offset-0 focus-visible:border-none outline-none focus-visible:outline-none focus-visible:ring-transparent focus-visible:ring-offset-0 !important;
+}
+
+.cancelButton {
+  @apply h-[52px] flex-1 rounded-full bg-white text-light-100 hover:bg-brand/10 shadow-none !important;
+}
