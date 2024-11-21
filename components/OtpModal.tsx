@@ -21,6 +21,7 @@ import { Button } from "@/components/ui/button";
 import { sendEmailOtp, verifyEmailOtp } from "@/lib/actions/user.actions";
 import { useRouter } from "next/navigation";
 import { REGEXP_ONLY_DIGITS } from "input-otp";
+import { ROUTING } from "@/app/routing.js"
 
 const OtpModal = ({
   email,
@@ -41,7 +42,7 @@ const OtpModal = ({
     try {
       // Call API to verify OTP
       const sessionId = await verifyEmailOtp({ accountId, otp });
-      if (sessionId) router.push("/");
+      if (sessionId) router.push(ROUTING.home);
     } catch (error) {
       console.error(error);
     } finally {

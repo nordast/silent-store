@@ -19,6 +19,7 @@ import { createUser, signInUser } from "@/lib/actions/user.actions";
 import OtpModal from "@/components/OtpModal";
 import AppLoader from "@/components/base/AppLoader";
 import styles from "./styles/AuthForm.module.css";
+import { ROUTING } from "@/app/routing.js"
 
 type FormType = "sign-in" | "sign-up";
 
@@ -142,7 +143,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
                 : "Already have an account?"}
 
               <Link
-                href={type === "sign-in" ? "/sign-up" : "/sign-in"}
+                href={type === "sign-in" ? ROUTING.signUp : ROUTING.signIn}
                 className="link ml-1 font-medium"
               >
                 {type === "sign-in" ? "Create Account" : "Login"}

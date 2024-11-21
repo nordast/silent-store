@@ -7,6 +7,7 @@ import { parseStringify } from "@/lib/utils";
 import { cookies } from "next/headers";
 import { sessionName } from "@/constants";
 import { redirect } from "next/navigation";
+import { ROUTING } from "@/app/routing.js"
 
 const handleError = (error: unknown, message: string) => {
   console.log(error, message);
@@ -118,7 +119,7 @@ export const signOutUser = async () => {
   } catch (error) {
     handleError(error, "Failed to sign out user");
   } finally {
-    redirect("/sign-in");
+    redirect(ROUTING.signIn);
   }
 };
 

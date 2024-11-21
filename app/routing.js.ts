@@ -1,6 +1,6 @@
 export const ROUTING = {
   home: "/",
-  signIn: "/sign-ip",
+  signIn: "/sign-in",
   signUp: "/sign-up",
-  filePage: (type: string) => `/${type}`,
+  // filePage: (type: string) => `/${type}`,
 };
